@@ -22,6 +22,18 @@ const writeFile = (fileName, fileData)=> {
     fs.writeFileSync(fileName, JSON.stringify(fileData))
 }
 
+app.get("/", (req,res)=>{
+    res.render("base/index", {title: "critters"})
+})
+
+app.get("/critters", (req,res)=>{
+    res.redirect("/")
+})
+
+app.get("/critters/new", (req, res)=>{
+    res.redirect("/")
+})
+
 app.get("/dinosaurs", (req, res)=>{
     let dinos = getFile("./dinosaurs.json")
     res.render('dinos/index', {title: "dinosaurs", critters: dinos })
