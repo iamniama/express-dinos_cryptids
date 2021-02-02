@@ -1,0 +1,7 @@
+<form method="POST" action="/<%=title%>/<%=critterId%>/?_method=PUT">
+	<label class="card-text text-muted">Name</label>
+	<input type="text" name="name" value="<%= critter.name %>" class="form-control">
+	<label class="card-text text-muted">Image</label>
+	<input type="text" name="img_url" value="<%= critter.img_url %>" class="form-control">
+	<input type="submit" class="btn btn-primary">
+</form>
