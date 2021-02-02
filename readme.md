@@ -1,4 +1,10 @@
-# RESTful Dinos (Lab)
+
+# RESTful Dinos Deliverable
+There is a reason this looks really familiar. We went through it. Gotta put in the reps.
+
+Can you set it up without looking at the directions? Can you reference your own notes? Any way you do it, getting in a repetition will help solidify your knowledge.
+
+----------------------------------------------------------------------------------------------------------------
 
 So far, we've only been rendering views, which is why we've been using GET for all of our routes. Now that we're working with data, we'll start to see how the other HTTP verbs come into play. Here we will focus on `GET` and `POST`.
 
@@ -9,8 +15,7 @@ So far, we've only been rendering views, which is why we've been using GET for a
 ## Directions
 
 1. Fork and Clone this repository!
-2. Follow the steps below to get a working app!
-3. If you finish early, start on the [homework](./homework.md)!
+2. Follow the steps below to get a working app! Then push and make a pull request.
 
 ### STEP 1: Set up a new express app called `crud_dinosaurs`.
 
@@ -278,4 +283,4 @@ app.get('/dinosaurs', function(req, res) {
 
 ## Want more practice?
 
-Add onto this project with the [RESTful Cryptids](./homework.md) and [RESTful Prehistorics](https://github.com/WDI-SEA/prehistoric_creatures) assignments!
+Add onto this project with the [RESTful Prehistorics](https://github.com/WDI-SEA/prehistoric_creatures) in 1 repo!
