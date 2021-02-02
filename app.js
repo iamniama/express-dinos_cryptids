@@ -22,15 +22,20 @@ const writeFile = (fileName, fileData)=> {
     fs.writeFileSync(fileName, JSON.stringify(fileData))
 }
 
+/////////////////////////////////////////////////////////
+// HOME PAGE
+////////////////////////////////////////////////////////
+
 app.get("/", (req,res)=>{
     res.render("base/index", {title: "critters"})
 })
 
-app.get("/critters", (req,res)=>{
-    res.redirect("/")
-})
 
-app.get("/critters/new", (req, res)=>{
+/////////////////////////////////////////////////////////
+// DINOSAURS
+////////////////////////////////////////////////////////
+
+app.get("/critters", (req,res)=>{
     res.redirect("/")
 })
 
@@ -74,7 +79,8 @@ app.put("/dinosaurs/:idx", (req, res)=>{
     res.redirect("/dinosaurs")
 })
 
-
+/////////////////////////////////////////////////////////
+// CRYPTIDS
 ////////////////////////////////////////////////////////
 
 app.get("/cryptids", (req, res)=>{
