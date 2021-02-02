@@ -1,4 +1,4 @@
-# NOTES
+#  !!!!!!!!!!!!!!!!!  NOTES !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 This implements the dino and cryptid data files, with views for each, though as I was porting the dino stuff over to the cryptid side, it seemed that a lot of the template code could be reused...
 
 Also, for my convenience, I added a basic nav bar to the top of my layout to allow me to move between the datasets and a basic home page, which does not display the nav bar.
