@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>All <%= title %>></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
+
+<body>
+    <a href="/<%=title%>">HOME</a> <a href="/<%=title%>/new">ADD</a> 
+    <div class="card" style="width: 35rem;border: 1px solid black;margin: 20px;">
+        <div class=card-body>
+    <%- body %>
+</div>
+</div>
+
+</body>
+
+</html>

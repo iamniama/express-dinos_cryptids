@@ -1,0 +1,10 @@
+<ul class="list-group">
+    <%critters.forEach(function(dino, index){ %>
+        <li class="list-group-item"> <%=dino.name %> is a dinosaur of type <%=dino.type%> <a href="/dinosaurs/edit/<%= index %>">Edit</a>
+            <form method="POST" action="/dinosaurs/<%= index %>/?_method=DELETE">
+                <input type="submit" value="Delete" class="btn btn-primary">
+                </form>
+        </li>
+
+   <% }) %>
+</ul>
