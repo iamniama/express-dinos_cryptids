@@ -36,8 +36,8 @@ Just copy it over to your existing dino code. You should already have the code y
 
 > Refer to the `faves_hates_app` from the [Layouts and Controllers Lab](https://github.com/GAWDISeattle/notes/blob/master/05-node-express/express-apis/01organization.md) for a reference.
 
-### 3. Reorganize your routes into controllers
-[x]
+### 3. Reorganize your routes into controllers  ????
+[]
 
 There should be one controller for dinosaurs and one controller for cryptids.
 
