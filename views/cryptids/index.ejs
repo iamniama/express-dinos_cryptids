@@ -1,6 +1,6 @@
 <ul class="list-group">
     <%critters.forEach(function(critter, index){ %>
-        <li class="list-group-item"> <img src="<%=critter.img_url%>" class="img-thumbnail" /><%=critter.name %>  <a href="/cryptids/edit/<%= index %>">Edit</a>
+        <li class="list-group-item"> <img src="<%=critter.img_url%>" class="img-thumbnail" title="<%=critter.name%>" alt="<%=critter.name%>" /><%=critter.name %>  <a href="/cryptids/edit/<%= index %>">Edit</a>
             <form method="POST" action="/cryptids/<%= index %>/?_method=DELETE">
                 <input type="submit" value="Delete" class="btn btn-primary">
                 </form>

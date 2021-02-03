@@ -1,10 +1,10 @@
 #  !!!!!!!!!!!!!!!!!  NOTES !!!!!!!!!!!!!!!!!!!!!!!!!!!!
-This implements the dino and cryptid data files, with views for each, though as I was porting the dino stuff over to the cryptid side, it seemed that a lot of the template code could be reused...
 
-Also, for my convenience, I added a basic nav bar to the top of my layout to allow me to move between the datasets and a basic home page, which does not display the nav bar.
-All styling via Bootstrap, which I am liking more and more...
-
-I also wrote functions for handling the files, because it would be easier to maintain, and makes the code reusable for opening and writing JSON data
+- This implements the dino and cryptid data files, with views for each, though as I was porting the dino stuff over to the cryptid side, it seemed that a lot of the template code could be reused...
+- For my convenience, I added a basic nav bar to the top of my layout to allow me to move between the datasets and a basic home page, which does not display the nav bar.
+- All styling via Bootstrap, which I am liking more and more...
+- I also wrote functions for handling the files, because it would be easier to maintain, and makes the code reusable for opening and writing JSON data.
+- Lastly, for the bonus (from homework.md), I wasn't sure if you were looking for a modal or just the *title* attribute of the *img* tag.  I used *title*
 
 
 
