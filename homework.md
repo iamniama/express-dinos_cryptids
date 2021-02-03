@@ -19,11 +19,11 @@ Using the same app (just add to your existing code), create a mirror of what you
 ---
 
 ### 1. Add the `cryptids.json` file to your `crud_dinosaurs` directory. (That file is included in this repo.)
-
+[x]
 Just copy it over to your existing dino code. You should already have the code you need to read and write to JSON files from the dinosaurs app.
 
 ### 2. Create the following routes:
-
+[x]
 | VERB | URL | Action (CRUD) | Description |
 |------|-----|---------------|-------------|
 | GET | /cryptids | Index (Read) | displays all cryptids |
@@ -37,9 +37,10 @@ Just copy it over to your existing dino code. You should already have the code y
 > Refer to the `faves_hates_app` from the [Layouts and Controllers Lab](https://github.com/GAWDISeattle/notes/blob/master/05-node-express/express-apis/01organization.md) for a reference.
 
 ### 3. Reorganize your routes into controllers
+[x]
 
 There should be one controller for dinosaurs and one controller for cryptids.
 
 ## BONUS!
 
-Make a tooltip that displays the name of the cryptid when you hover over the image.
+[x]Make a tooltip that displays the name of the cryptid when you hover over the image.
